@@ -32,7 +32,7 @@ from download import download
 ########################################################################
 
 # Base URL for downloading the data-files from the internet.
-base_url = "https://storage.googleapis.com/cvdf-datasets/mnist/"
+base_url = "http://kubeflow-oss.oss-cn-hangzhou.aliyuncs.com/tensorflow/input_data/"
 
 # Filenames for the data-set.
 filename_x_train = "train-images-idx3-ubyte.gz"
